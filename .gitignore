@@ -1,0 +1,53 @@
+# Залежності
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Збірки та артефакти
+dist/
+build/
+.serverless/
+.vite/
+.cache/
+
+# Конфігураційні файли середовища
+.env
+.env.*
+!.env.example
+
+# Файли IDE та редакторів
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Файли дебагу
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Тестові файли
+coverage/
+.nyc_output/
+
+# Фронтенд-специфічні
+/public/*
+!/public/assets
+/public/assets/*
+!/public/assets/fonts
+/public/assets/fonts/*
+/public/assets/icons/*
+/public/assets/images/*
+
+# Бекенд-специфічні
+/.webpack
+/.build
+/.esbuild
